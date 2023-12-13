@@ -18,23 +18,21 @@ function Home2() {
             <h1 style={{ fontSize: "2.6em" }}>
               LET ME <span className="purple"> INTRODUCE </span> MYSELF
             </h1>
-<p className="home-about-body">
-  My journey into programming has been a love story, marked by continuous learning and exploration. 🤷‍♂️
-  <br />
-  <br />I am proficient in timeless languages such as
-  <i>
-    <b className="purple"> Python and JavaScript </b>
-  </i>
-  <br />
-  <br />
-  My interests lie in crafting innovative &nbsp;
-  <i>
-    <b className="purple">web technologies and products</b>.
-  </i>
-  <br />
-  </i>
-</p>
-
+            <p className="home-about-body">
+              My journey into programming has been a love story, marked by continuous learning and exploration. 🤷‍♂️
+              <br />
+              <br />I am proficient in timeless languages such as
+              <i>
+                <b className="purple"> Python and JavaScript </b>
+              </i>
+              <br />
+              <br />
+              My interests lie in crafting innovative &nbsp;
+              <i>
+                <b className="purple">web technologies and products</b>.
+              </i>
+              <br />
+            </p>
           </Col>
           <Col md={4} className="myAvtar">
             <Tilt>
@@ -96,4 +94,5 @@ function Home2() {
     </Container>
   );
 }
+
 export default Home2;
