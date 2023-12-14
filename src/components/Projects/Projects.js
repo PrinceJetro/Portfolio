@@ -67,13 +67,12 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath="https://www.google.com/url?sa=i&url=https%3A%2F%2Fdomatron.com%2Farticle%2Fmovie-app-name-ideas&psig=AOvVaw0FcRu2bPHEMI7edP8_rkQ0&ust=1702667534022000&source=images&cd=vfe&opi=89978449&ved=0CBIQjRxqFwoTCPjt54vRj4MDFQAAAAAdAAAAABAD"
+              imgPath="https://images.macrumors.com/t/bqE08dtO0_ZRrznXxWn978HSr-Y=/1600x900/smart/article-new/2011/10/itunes_movie_trailers_ipad.jpg"
               isBlog={false}
               title="Movie Trailer App"
               description="Embark on a cinematic journey with our React-based Movie Trailer app, exclusively tailored for mobile users. Immerse yourself in the world of film trailers on-the-go. With a mobile-centric design, this app brings the magic of React to your fingertips. Explore and preview the latest movie trailers seamlessly, all within the convenience of your mobile device. Lights, camera, React - the silver screen experience, now in the palm of your hand!"
               ghLink="https://github.com/PrinceJetro/sylva"
               demoLink="https://sylva-x-jetro-movie-app.vercel.app/" 
-              // demoLink="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley" <--------Please include a demo link here
             />
           </Col>
 
