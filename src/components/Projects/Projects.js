@@ -60,6 +60,22 @@ function Projects() {
             />
           </Col>
 
+
+                
+         
+                
+                
+                <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath="https://catherineisonline.github.io/news-homepage-frontendmentor/images/image-web-3-mobile.jpg"
+              isBlog={false}
+              title="News Homepage"
+              description="Stay Informed, Stay Empowered! 📰 Welcome to Your News Hub - Your Go-To Source for Timely Updates. From breaking news to in-depth features, we've got it all on our user-friendly homepage. "
+              ghLink="https://github.com/PrinceJetro/frontend-mentor-news-homepage"
+              demoLink="https://jetros-frontend-mentor-news-homepage.vercel.app/"              
+            />
+          </Col>
+
                 
                 
           <Col md={4} className="project-card">
