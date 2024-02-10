@@ -13,8 +13,7 @@ function AboutCard() {
             <br />
             I am currently a freelancer looking for projects to work on.
             <br />
-            I have completed several courses on Software development, including CS50 at Harvard University with a \
-              certificate of completion 
+            I have completed several courses on Software development, including CS50 at Harvard University with a certificate of completion 
             <br />
             <br />
             Apart from coding, some other activities that I love to do!
