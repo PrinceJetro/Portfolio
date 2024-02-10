@@ -33,7 +33,23 @@ function Projects() {
             />
           </Col>
 
-         <Col md={4} className="project-card">
+
+                <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath="https://agency-landing-fem.herokuapp.com/images/mobile/image-transform.jpg"
+              isBlog={false}
+              title="Nike Shoes Store"
+              description=""Unleash Your Potential with Nike's Exclusive Mobile App! 👟 Step into a world of performance and style right from your phone. Explore the latest kicks, personalized recommendations, and exclusive releases - all at your fingertips. Elevate your game and style, exclusively on mobile.🔥 #JustDoIt #NikeFootwear"
+              ghLink="https://github.com/PrinceJetro/nike-shoe-emporium"
+              demoLink="https://nike-shoe-emporium.vercel.app/"              
+            />
+          </Col>
+
+                
+         
+                
+                
+                <Col md={4} className="project-card">
             <ProjectCard
               imgPath="https://agency-landing-fem.herokuapp.com/images/mobile/image-transform.jpg"
               isBlog={false}
