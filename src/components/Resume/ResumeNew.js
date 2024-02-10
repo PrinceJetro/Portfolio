@@ -32,7 +32,7 @@ function ResumeNew() {
         </Row>
 
         <Row className="resume">
-          <Document file={pdf} className="d-flex justify-content-center">
+          <Document file={"https://drive.google.com/file/d/10r2fZI4apZqK47dpCIbp5NEzExcQ57CW/view?usp=sharing"} className="d-flex justify-content-center">
             <Page pageNumber={1} scale={width > 786 ? 1.7 : 0.6} />
           </Document>
         </Row>
@@ -40,7 +40,7 @@ function ResumeNew() {
         <Row style={{ justifyContent: "center", position: "relative" }}>
           <Button
             variant="primary"
-            href={pdf}
+            href={"https://drive.google.com/file/d/10r2fZI4apZqK47dpCIbp5NEzExcQ57CW/view?usp=sharing"}
             target="_blank"
             style={{ maxWidth: "250px" }}
           >
