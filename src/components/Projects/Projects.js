@@ -62,6 +62,21 @@ function Projects() {
 
 
                 
+                
+                <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath="https://cdn1.expresscomputer.in/wp-content/uploads/2023/01/04165947/EC_Retail_ECommerce_750.jpg"
+              isBlog={false}
+              title="E-commerce Web application"
+              description="Groceries at Your Fingertips: Shop Smart at Our Supermarket Website! 🛒 Explore a world of convenience with a click. From fresh produce to pantry essentials, find it all here. Browse aisles, add to your cart, and enjoy hassle-free checkout. Elevate your shopping experience - click to fill your cart and your kitchen! 🍎🥦 #SmartShopping #SupermarketSavings"
+              ghLink="https://github.com/PrinceJetro/background-image-slider"
+              demoLink="https://zingy-pika-0e20f3.netlify.app/"              
+            />
+          </Col>
+
+
+                
+         
          
                 
                 
