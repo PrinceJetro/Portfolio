@@ -88,8 +88,8 @@ function Projects() {
             <ProjectCard
               imgPath="https://res.cloudinary.com/dz209s6jk/image/upload/v1633619397/Challenges/fhzpdnabrek50hvhftnl.jpg"
               isBlog={false}
-              title="E-commerce Web Application"
-              description="Discover a world of online shopping with our React-powered eCommerce web app. Immerse yourself in a visually stunning and user-friendly interface designed for seamless navigation."
+              title="Shoe Empire Web Application"
+              description="Step into Style: Your Ultimate Shoe Destination! 👟 Explore the latest trends, find the perfect fit, and walk with confidence. From casual kicks to statement stilettos, we've got your feet covered. Elevate your shoe game - shop now and put your best foot forward! 👠👞 #ShoeHeaven #StepIntoStyle"
               ghLink="https://github.com/PrinceJetro/Frontend-Mentor-E-commerce"
               demoLink="https://princejetro-e-commerce.vercel.app/"
             />
