@@ -39,7 +39,7 @@ function NavBar() {
     >
       <Container>
         <Navbar.Brand href="/" className="d-flex">
-          <img src={logo} className="img-fluid logo" alt="brand" />
+          <img src="https://fjffcwsrzmnrldjgvfto.supabase.co/storage/v1/object/sign/rps/logo%20(1).png?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJycHMvbG9nbyAoMSkucG5nIiwiaWF0IjoxNzA3NTY2OTYyLCJleHAiOjE3MzkxMDI5NjJ9.E76Rmq00rfGT6-Wcj6vnPS2axjbrN_OH9TtLNnimlYk&t=2024-02-10T12%3A09%3A25.145Z" className="img-fluid logo" alt="brand" />
         </Navbar.Brand>
         <Navbar.Toggle
           aria-controls="responsive-navbar-nav"
