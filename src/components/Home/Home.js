@@ -32,7 +32,7 @@ function Home() {
 
             <Col md={5} style={{ paddingBottom: 20 }}>
               <img
-                src={homeLogo}
+                src={"https://fjffcwsrzmnrldjgvfto.supabase.co/storage/v1/object/sign/rps/as.jpg?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJycHMvYXMuanBnIiwiaWF0IjoxNzA3NTY2MjQ1LCJleHAiOjE3MzkxMDIyNDV9.mdYjqFPzXvfeHJ2NHm0J92K6cq6l0_DTKt1Acb66m08&t=2024-02-10T11%3A57%3A28.028Z"}
                 alt="home pic"
                 className="img-fluid"
                 style={{ maxHeight: "450px" }}
