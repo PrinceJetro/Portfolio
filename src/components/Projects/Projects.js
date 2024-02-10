@@ -21,27 +21,6 @@ function Projects() {
           Here are a few projects I've worked on recently.
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath="https://res.cloudinary.com/dz209s6jk/image/upload/v1606413905/Challenges/ty4ppudcq94rtgj4rv6p.jpg"
-              isBlog={false}
-              title="Todo App"
-              description="This ToDo app, crafted with React, empowers users to efficiently manage their tasks. Seamlessly add new tasks, mark them as completed, and effortlessly delete those no longer needed. With a clean and intuitive interface, this app simplifies task organization, helping you stay on top of your to-do list effortlessly.ch allows user for realtime messaging, image sharing as well as supports reactions on messages."
-              ghLink="https://github.com/PrinceJetro/Todo-app"
-              demoLink="https://princejetro-todo-app.vercel.app/"
-            />
-          </Col>
-
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath="https://res.cloudinary.com/dz209s6jk/image/upload/v1629017580/Screenshots/kklmlncc4yza3dvsjrtb.jpg"
-              isBlog={false}
-              title="Calculator"
-              description="Experience the convenience of our React-based calculator app. Whether you're crunching numbers for work or school, this user-friendly tool provides a straightforward interface for basic arithmetic operations. Add, subtract, multiply, and divide with ease. "
-              ghLink="https://github.com/PrinceJetro/calculator-app"
-              demoLink="https://princejetro-calculator-app.vercel.app"
-            />
-          </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
@@ -54,6 +33,19 @@ function Projects() {
             />
           </Col>
 
+         <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath="https://agency-landing-fem.herokuapp.com/images/mobile/image-transform.jpg"
+              isBlog={false}
+              title="SunnySide Landing Page"
+              description="Step into the sunshine with Sunnyside! 🌞 Your go-to app for vibrant living and positivity. Dive into a world of joy, discover exciting features, and brighten your day with every click. Ready for a sunny adventure? Click now and let the sunshine in"
+              ghLink="https://github.com/PrinceJetro/sunnyside"
+              demoLink="https://sunnyside-lemon-tau.vercel.app/"              
+            />
+          </Col>
+
+                
+                
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath="https://www.searchenginejournal.com/wp-content/uploads/2021/09/16-reasons-why-social-media-is-important-to-your-company-616d3200e6dc6-sej.png"
@@ -86,7 +78,32 @@ function Projects() {
               demoLink="https://princejetro-e-commerce.vercel.app/"
             />
           </Col>
-        </Row>
+
+                          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath="https://res.cloudinary.com/dz209s6jk/image/upload/v1606413905/Challenges/ty4ppudcq94rtgj4rv6p.jpg"
+              isBlog={false}
+              title="Todo App"
+              description="This ToDo app, crafted with React, empowers users to efficiently manage their tasks. Seamlessly add new tasks, mark them as completed, and effortlessly delete those no longer needed. With a clean and intuitive interface, this app simplifies task organization, helping you stay on top of your to-do list effortlessly.ch allows user for realtime messaging, image sharing as well as supports reactions on messages."
+              ghLink="https://github.com/PrinceJetro/Todo-app"
+              demoLink="https://princejetro-todo-app.vercel.app/"
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath="https://res.cloudinary.com/dz209s6jk/image/upload/v1629017580/Screenshots/kklmlncc4yza3dvsjrtb.jpg"
+              isBlog={false}
+              title="Calculator"
+              description="Experience the convenience of our React-based calculator app. Whether you're crunching numbers for work or school, this user-friendly tool provides a straightforward interface for basic arithmetic operations. Add, subtract, multiply, and divide with ease. "
+              ghLink="https://github.com/PrinceJetro/calculator-app"
+              demoLink="https://princejetro-calculator-app.vercel.app"
+            />
+          </Col>
+
+                
+                
+                </Row>
       </Container>
     </Container>
   );
