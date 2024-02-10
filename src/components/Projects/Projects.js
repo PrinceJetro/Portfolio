@@ -117,6 +117,17 @@ function Projects() {
             />
           </Col>
 
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath="https://www.sketchappsources.com/resources/source-image/music-icon-glmrvn.png"
+              isBlog={false}
+              title="Music app"
+              description="Harmony in Your Hands: Dive into the Beat with our Music App! 🎶 Whether you're on your desktop or mobile, experience the rhythm like never before. Your music, your way. Click to play the soundtrack of your life! 🎧🌟 #MusicApp #TuneIn"
+              ghLink="https://github.com/PrinceJetro/music-player-"
+              demoLink="https://jetromusicapp.vercel.app/#"
+            />
+          </Col>
+
                 
                 
                 </Row>
