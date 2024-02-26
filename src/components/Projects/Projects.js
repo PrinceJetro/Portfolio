@@ -24,6 +24,17 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
+              imgPath="https://images.rawpixel.com/image_800/cHJpdmF0ZS9sci9pbWFnZXMvd2Vic2l0ZS8yMDIyLTA1L3Vwd2s2MTg0MzExOC13aWtpbWVkaWEtaW1hZ2Uta293YzVmbDcuanBn.jpg"
+              isBlog={false}
+              title="Fashion Store"
+              description="Elevate your style! Discover the latest trends in fashion with our curated collection of clothing and accessories. Shop effortlessly through a user-friendly interface. Unleash your individuality with exclusive promotions. Explore fashion, the way it's meant to be."
+              ghLink="https://github.com/PrinceJetro/fashion"
+              demoLink="https://princejetro-fashion-demo.vercel.app/"              
+            />
+          </Col>
+
+                <Col md={4} className="project-card">
+            <ProjectCard
               imgPath="https://res.cloudinary.com/dz209s6jk/image/upload/f_auto,q_auto,w_700/Challenges/kfaa5whc9ukiqp3tqseo.jpg"
               isBlog={false}
               title="LoopStudios Landing Page"
