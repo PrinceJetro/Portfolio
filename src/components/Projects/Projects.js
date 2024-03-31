@@ -22,6 +22,18 @@ function Projects() {
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
 
+            <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath="https://c4.wallpaperflare.com/wallpaper/88/142/353/anime-avatar-the-last-airbender-wallpaper-preview.jpg"
+              isBlog={false}
+              title="Avatar: The Last AirBender FanPage"
+              description="Introducing our latest web application, crafted exclusively for the passionate fans of Avatar: The Last Airbender (ATLA). Dive into the ultimate hub for all things ATLA, where adventure awaits at every click!  Embark on a journey through our interactive map, exploring the rich and diverse world of the Four Nations. Test your knowledge and bend your mind with our engaging quiz, designed to challenge even the most dedicated fans."
+              ghLink="https://github.com/PrinceJetro/Avatar"
+              demoLink="https://princejetro-avatar-fanpage.vercel.app/"
+            />
+          </Col>
+
+
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath="https://images.rawpixel.com/image_800/cHJpdmF0ZS9sci9pbWFnZXMvd2Vic2l0ZS8yMDIyLTA1L3Vwd2s2MTg0MzExOC13aWtpbWVkaWEtaW1hZ2Uta293YzVmbDcuanBn.jpg"
@@ -104,17 +116,7 @@ function Projects() {
 
                 
                 
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath="https://www.searchenginejournal.com/wp-content/uploads/2021/09/16-reasons-why-social-media-is-important-to-your-company-616d3200e6dc6-sej.png"
-              isBlog={false}
-              title="Social Media Web App"
-              description="Welcome to a vibrant online community powered by Django, HTML, CSS, and JS! Our social media web application combines the robust backend capabilities of Django, leveraging a PostgreSQL database through Supabase for secure and efficient data storage"
-              ghLink="https://github.com/PrinceJetro/Jetro"
-              demoLink="https://jetrostagram.vercel.app"
-            />
-          </Col>
-
+          
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath="https://images.macrumors.com/t/bqE08dtO0_ZRrznXxWn978HSr-Y=/1600x900/smart/article-new/2011/10/itunes_movie_trailers_ipad.jpg"
