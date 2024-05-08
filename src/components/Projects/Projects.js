@@ -22,6 +22,23 @@ function Projects() {
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
 
+
+            <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath="https://assets.entrepreneur.com/content/3x2/2000/1621876861-GettyImages-1190654842.jpg"
+              isBlog={false}
+              title="Jetrostagram: A Social Media Web application"
+              description="Introducing Jetrostagram, a dynamic and interactive social media platform built with Django. With Jetrostagram, users can effortlessly share their experiences through images and texts, engage with their friends' posts by commenting and liking, and even post ephemeral stories to capture the moment. The application allows users to explore and connect with others by viewing profiles, staying up-to-date with notifications, and discovering trending content"
+              ghLink="https://github.com/PrinceJetro/Jetro"
+              demoLink="http://jetrostagram.vercel.app/"
+            />
+          </Col>
+
+            
+
+
+
+            
             <Col md={4} className="project-card">
             <ProjectCard
               imgPath="https://c4.wallpaperflare.com/wallpaper/88/142/353/anime-avatar-the-last-airbender-wallpaper-preview.jpg"
@@ -32,6 +49,9 @@ function Projects() {
               demoLink="https://princejetro-avatar-fanpage.vercel.app/"
             />
           </Col>
+
+
+                
 
 
           <Col md={4} className="project-card">
