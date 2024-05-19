@@ -25,7 +25,7 @@ function Projects() {
 
             <Col md={4} className="project-card">
             <ProjectCard
-              imgPath="https://assets.entrepreneur.com/content/3x2/2000/1621876861-GettyImages-1190654842.jpg"
+              imgPath="https://images.unsplash.com/photo-1611162617213-7d7a39e9b1d7?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8c29jaWFsJTIwbWVkaWF8ZW58MHx8MHx8fDA%3D"
               isBlog={false}
               title="Jetrostagram: A Social Media Web application"
               description="Introducing Jetrostagram, a dynamic and interactive social media platform built with Django. With Jetrostagram, users can effortlessly share their experiences through images and texts, engage with their friends' posts by commenting and liking, and even post ephemeral stories to capture the moment. The application allows users to explore and connect with others by viewing profiles, staying up-to-date with notifications, and discovering trending content"
